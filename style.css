@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Literata:wght@500&display=swap");
+
+body {
+  font-family: "Literata", serif;
+}
+
+.header-pages a {
+  font-size: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.logo img {
+  height: 40px;
+  width: 40px;
+  margin: 0 auto;
+  border-radius: 40px;
+}
+
+.header-pages {
+  display: flex;
+  gap: 10px;
+}
+
+.mainBody {
+  max-width: 700px;
+  min-width: 500px;
+  margin: 0 auto;
+}
+
+.main-body {
+  background-color: rgb(255, 242, 0);
+  height: 200px;
+  border-radius: 30px;
+  color: black;
+
+  font-size: 30px;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.main-body-2 {
+  display: flex;
+}
+
+.main-body-2-one {
+  background-color: rgb(0, 217, 255);
+  height: 200px;
+
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+
+  width: 50%;
+  font-size: 30px;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.main-body-2-two {
+  background-color: rgb(255, 0, 0);
+  height: 200px;
+
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  width: 50%;
+  font-size: 30px;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.main-body-3 {
+  background-color: rgb(247, 99, 242);
+  height: 200px;
+
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.main-body-4 {
+  background-color: rgb(0, 255, 17);
+  height: 200px;
+
+  border-radius: 30px;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-family: "Literata", serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.resume {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  max-width: 800px;
+  min-width: 400px;
+
+  background-color: aliceblue;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 30px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.contact {
+  border: double yellow;
+  background-color: black;
+  color: yellow;
+  padding: 20px;
+}
+
+.message {
+  background-color: rgb(255, 238, 0);
+  margin: 0 auto;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  padding: 40px;
+  font-size: 24px;
+  min-width: 400px;
+  max-width: 800px;
+}
+
+.oops {
+  font-size: 60px;
+}
+
+@media (max-width: 375px) {
+  .header a {
+    margin: 10px;
+  }
+
+  .header-pages a {
+    font-size: 14px;
+  }
+
+  .mainBody {
+    max-width: 300px;
+    min-width: 200px;
+    margin: 0 auto;
+    font-size: 20px;
+  }
+
+  .main-body {
+    background-color: rgb(255, 242, 0);
+    height: 100px;
+    border-radius: 20px;
+    color: black;
+
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .main-body-2 {
+    display: flex;
+  }
+
+  .main-body-2-one {
+    background-color: rgb(0, 217, 255);
+    height: 100px;
+    border-radius: 20px;
+    align-items: center;
+
+    color: rgb(255, 255, 255);
+
+    width: 50%;
+    font-size: 20px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .main-body-2-two {
+    background-color: rgb(255, 0, 0);
+    height: 100px;
+    border-radius: 20px;
+
+    color: rgb(255, 255, 255);
+    width: 50%;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .main-body-3 {
+    background-color: rgb(247, 99, 242);
+    height: 100px;
+    border-radius: 20px;
+
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .main-body-4 {
+    background-color: rgb(0, 255, 17);
+    height: 100px;
+    border-radius: 20px;
+
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: "Literata", serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .message {
+    font-size: 16px;
+
+    min-width: 100px;
+  }
+
+  .message a {
+    font-size: 12px;
+  }
+
+  .resume {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 300px;
+    min-width: 100px;
+
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 30px;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+  }
+}
